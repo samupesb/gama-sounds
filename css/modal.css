@@ -1,0 +1,122 @@
+.modal1{
+    width: 600px;
+    height: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;   
+    animation: animate1;
+    animation-duration: 800ms;
+    
+}
+@keyframes animate1{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fechar1{
+    width: 300px;
+    height: 30px;
+    background-color: red;  
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.modal2{
+    width: 600px;
+    height: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate2;
+    animation-duration: 800ms;
+    
+}
+@keyframes animate2{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fechar2{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.modal3{
+    width: 600px;
+    height: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate3;
+    animation-duration: 800ms;
+    
+}
+@keyframes animate3{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fechar3{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+#form1{
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 40px;
+    background-color: chartreuse;
+    border-style: none;
+}
